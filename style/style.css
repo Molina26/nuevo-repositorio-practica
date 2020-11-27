@@ -1,0 +1,6 @@
+/*Se quita la congiguración por defecto del navegador*/
+*{
+    padding : 0; 
+    box-sizing : border-box;
+    margin: 0;
+}
