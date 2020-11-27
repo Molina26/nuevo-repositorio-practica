@@ -11,6 +11,7 @@ function mostrarNombreCurso(nombre){
 
 mostrarPrecio = (precio)=>{
     //Muestra consola en formato de tabla, pero no esta bien
-    //Necesito ayuda
-    console.table(precio);
+    //El error era que la variable estaba indefinida
+    let precioMostrar = precio;
+    console.log(`El precion es ${precioMostrar}`);
 } 
